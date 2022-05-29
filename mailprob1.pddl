@@ -9,12 +9,15 @@
             (mail m1) (mail m2) (on1 h1 m1) (on1 h2 m2) 
             
             (at bob p14) (on h1 p13) (on h2 p10) (on2 b1 p7)
-            (road p1 p2) (road p2 p3) (road p2 p11) (road p3 p4) (road p4 p5) (road p5 p12)
+            
+			(road p1 p2)  (road p2 p1) (road p2 p3) (road p2 p11) 
+            (road p2 p3) (road p3 p4)  (road p4 p3) (road p4 p5) (road p5 p12) (road p5 p4)
             (road p6 p10) (road p6 p11) (road p8 p10) (road p8 p13) (road p9 p10) (road p9 p11) 
             (road p10 p6) (road p10 p8) (road p10 p9) (road p11 p2) (road p11 p6) (road p11 p9) 
             (road p12 p5) (road p13 p8) (road p13 p14) (road p14 p13) 
             
-            (metro p2 p3) (metro p3 p7) (metro p7 p8) (metro p8 p6) (metro p6 p7)
+			(metro p2 p3) (metro p3 p7) (metro p7 p8) (metro p8 p6) (metro p6 p2)
+            (metro p6 p7)
         
     )   
     
